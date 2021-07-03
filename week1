@@ -1,0 +1,21 @@
+https://docs.python.org/3/library/ipc.html
+Inter-process communication (IPC): 
+           It is a mechanism that allows processes to communicate with each other and synchronize their actions. The communication between these processes can be seen as a method of co-operation between them. 
+Processes can communicate with each other through both: Shared Memory. Message passing.
+
+Networking:
+          Python provides two levels of access to network services. At a low level, you can access the basic socket support in the underlying operating system, which allows you to implement clients and servers for both connection-oriented and connectionless protocols.
+
+List of modules:
+asyncio — Asynchronous I/O
+socket — Low-level networking interface
+ssl — TLS/SSL wrapper for socket objects
+select — Waiting for I/O completion
+selectors — High-level I/O multiplexing
+asyncore — Asynchronous socket handler
+asynchat — Asynchronous socket command/response handler
+signal — Set handlers for asynchronous events
+mmap — Memory-mapped file support
+
+For basic networking  refer:
+http://do1.dr-chuck.net/net-intro/EN_us/net-intro.pdf
